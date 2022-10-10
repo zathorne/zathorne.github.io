@@ -1,0 +1,13 @@
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+zach:
+  name: Zach Thorne
+  twitter: zachthornewi
+  linkedin: https://www.linkedin.com/in/zachthornewi
+  url: https://github.com/zathorne/
+  blog: https://zachthorne.com

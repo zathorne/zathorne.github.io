@@ -21,12 +21,12 @@ timezone: America/Chicago
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Badger DevOps Docs                          # the main title
+title: Badger DevOps Documentation                          # the main title
 
-tagline: A doc site for my homelab   # it will display as the sub-title
+tagline: My documentation site for my homelab that you can use too!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A doc site for my homelab.
+  My documentation site for my homelab that you can use too!
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://zathorne.github.io'
@@ -41,16 +41,16 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Zach Thorne
-  email: example@doamin.com             # change to your email address
+  # email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/zachthornewi      # change to your twitter homepage
-    - https://github.com/zathorne       # change to your github homepage
+    # - https://github.com/zathorne       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+# google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:  dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
