@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Title"
-date: 2022-01-01 12:00:00 -0500
-categories: [homelab,proxmox]
-tags: [homelab,kubernetes]
+title: "Rancher Setup in Docker"
+date: 2022-10-10 17:00:00 -0500
+categories: [homelab,rancher]
+tags: [homelab,kubernetes,docker,management]
 ---
 
 [![Title](https://img.youtube.com/vi/BBBBBBBBBBBB/0.jpg)](https://www.youtube.com/watch?v=BBBBBBBBBBBB "Some Title")
