@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Ansible with Kubernetes"
+title: "Managing Kubernetes with Ansible"
 date: 2022-10-10 17:00:00 -0500
 categories: [homelab,ansible,kubernetes]
 tags: [homelab,kubernetes,ansible,management,python]
