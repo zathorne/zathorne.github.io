@@ -6,8 +6,4 @@ categories: [homelab,rancher]
 tags: [homelab,kubernetes,docker,management]
 ---
 
-[![Title](https://img.youtube.com/vi/BBBBBBBBBBBB/0.jpg)](https://www.youtube.com/watch?v=BBBBBBBBBBBB "Some Title")
-
-SOME DESCRIPTION
-
-[Watch Video](https://www.youtube.com/watch?v=BBBBBBBBBBBB)
+## Coming Soon
