@@ -23,6 +23,16 @@ Ansible Galaxy Package
 ansible-galaxy collection install kubernetes.core
 ```
 
+Install pip3
+
+```bash
+sudo apt install python3-pip
+```
+
+```bash
+pip3 install kubernetes
+```
+
 As explained in this [Ansible documentation](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html#using-python-3-on-the-managed-machines-with-commands-and-playbooks) the ansible python interpreter does detect and automatically use Python 3 on many platforms. However, for those that do not, use the following ways to explicitly configure it.
 
 If you see some output similar to this when you run a playbook:
@@ -65,9 +75,35 @@ ansible-playbook sample-playbook.yml -e 'ansible_python_interpreter=/usr/bin/pyt
 Install pip3
 
 ```bash
-sudo apt install pip3
+sudo apt install python3-pip
 ```
 
 ```bash
 pip3 install kubernetes
+```
+
+## Running Playbooks
+
+From the same directory in which the playbook resides:
+
+```bash
+ansible-playbook playbook.yml
+```
+
+Running on a group defined in your hosts.ini file
+
+```bash
+ansible-playbook playbook.yml --limit groupname
+```
+
+If you want to see a list of hosts affected by your playbook before you actually run it, use --list-hosts
+
+```bash
+ansible-playbook playbook.yml --list-hosts
+```
+
+## Sample Playbook
+
+```yaml
+
 ```
